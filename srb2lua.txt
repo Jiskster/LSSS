@@ -40,6 +40,10 @@ srb2lua {
 		sectors,
 		sidenum,
 		hudinfo,
+		spriteinfo,
+		spr2defaults,
+		skincolors,
+		gamekeydown,
 
 		// console variable flags
 		CV_OnOff,
@@ -365,7 +369,8 @@ srb2lua {
 		BT_WEAPONNEXT,
 		BT_WEAPONPREV,
 		BT_ATTACK,
-		BT_USE,
+		BT_USE, -- This will be removed in 2.3
+		BT_SPIN,
 		BT_CAMLEFT,
 		BT_CAMRIGHT,
 		BT_TOSSFLAG,
